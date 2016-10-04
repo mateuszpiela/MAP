@@ -1,4 +1,5 @@
-# MAP
-MySQL + Arduino + PHP
-Projekt który pozwala pobierać z czujników (lub kontrolować) i zapisywać do bazy danych wyniki oraz pokazać na stronie internetowej 
+# Arduino LD
+Repozytorium w którym użyto więcej języków programowania do stworzenia więcej możliwości użycia
+# Spis Projektów
+MPAPD (MySQL + Python + Arduino + PHP + DHT11)
 
