@@ -1,5 +1,5 @@
+// github.com/mateuszpiela
 #include "DHT.h"
-
 #define pin 2
 #define type DHT11
 DHT dht(pin, type);
