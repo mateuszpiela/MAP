@@ -1,3 +1,4 @@
+# github.com/mateuszpiela
 # Import Bibliotek
 import serial
 import mysql.connector
