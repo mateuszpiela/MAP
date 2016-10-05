@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Czas generowania: 04 Paź 2016, 15:23
+-- Czas generowania: 05 Paź 2016, 15:29
 -- Wersja serwera: 10.1.16-MariaDB
 -- Wersja PHP: 5.6.24
 
@@ -16,14 +16,22 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
+--
+-- Baza danych: `arduino`
+--
+
+-- --------------------------------------------------------
 
 --
 -- Struktura tabeli dla tabeli `temp`
 --
+-- Data utworzenia: 05 Paź 2016, 13:19
+--
 
 CREATE TABLE `temp` (
   `ID` int(11) NOT NULL,
-  `TEMP` text CHARACTER SET latin1 NOT NULL
+  `TEMP` text NOT NULL,
+  `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
@@ -47,7 +55,7 @@ ALTER TABLE `temp`
 -- AUTO_INCREMENT dla tabeli `temp`
 --
 ALTER TABLE `temp`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
