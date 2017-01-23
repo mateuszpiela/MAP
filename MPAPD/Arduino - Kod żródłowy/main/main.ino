@@ -12,7 +12,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   if(Serial.available() > 0){
-      delay(10);
+      delay(20);
       float t = dht.readTemperature();
       Serial.print(t);
       Serial.print("\n");
