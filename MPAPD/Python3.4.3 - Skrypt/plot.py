@@ -5,7 +5,7 @@ import plotly
 from plotly.graph_objs import Scatter, Layout
 #Ustawienia bazy danych
 USER = "arduino"
-PASSWORD = "ZC5sVJrG95KA6Qbe"
+PASSWORD = "-----------"
 HOST = "localhost"
 DATABASE = "arduino"
 
